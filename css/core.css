@@ -41,7 +41,7 @@ a
     text-decoration: none;
 }
 
-h1, h2, h3, h5 {
+h1, h2, h3, h5, h6 {
     font-family: "freight-text-pro";
     font-weight: 900;
     margin: 0;
@@ -59,17 +59,29 @@ img {
 
     font-family: "freight-text-pro";
     font-weight: 900;
-    color: #151515;
+    color: #fff;
+    background: #B31F1F;
     cursor: pointer;
 }
 
 .button:hover {
     box-shadow: 0 0.25rem 1rem rgba(174,174,174, 0.75);
-    color: #777;
+    background: #c00;
 }
 .button:focus {
     box-shadow: 0 0.25rem 1.5rem rgba(174,174,174, 1);
     color: #555;
+}
+
+.topnav {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.topnav .logo {
+    font-family: "source-code-pro";
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 18px;
 }
 
 .hero{
@@ -78,17 +90,9 @@ img {
 .hero .head {
     position: relative;
 }
-.DISABLEDhero .head:after {
-    content: ' ';
-    position: absolute;
-    bottom: -2rem;
-    left: 0;
-    right: 0;
-    height: 0.5rem;
-    background: #151515;
-}
+
 .hero h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 3rem;
 }
 .hero .subhead {
@@ -131,41 +135,52 @@ img {
     margin-top: 1rem;
 }
 .section .sub-small {
-    margin-bottom:0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 .section .sub-small .tag{
     text-transform: uppercase;
     color: #A3A3A3;
     font-size: 1.25rem;
-    padding: 0.25rem 0 rem;;
-    font-weight: 700;
+    font-weight: 600;
 }
 .section p {
     margin: 0;
     font-size: 1rem;
 }
 .section .action {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
-.about .box{
-    margin: 3rem 1rem;
-    font-family: "freight-text-pro";
-    font-weight: 900;
-    font-size: 1.25rem;
-    position: relative;
+.future {
+    margin-bottom: 8rem;
+}
+.future h3 {
+    font-size: 2rem;
+}
+.future .exped {
     margin-top: 1rem;
-    margin-bottom: 6rem;
+    margin-bottom: 1rem;
 }
-.DISABLEDabout .box:after {
-    content: ' ';
-    position: absolute;
-    top: -1rem;
-    left: 0;
-    right: 0;
-    height: 0.5rem;
-    background: #151515;
+.future h6 {
+    font-size: 1rem;
+    margin: 0;
 }
+.future .tag{
+    text-transform: uppercase;
+    color: #A3A3A3;
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: 600;
+}
+.future .action {
+    margin-top: 1rem;
+}
+.future .button {
+    font-size: 14px;
+    padding: 0.5rem 1.5rem;
+}
+
 
 .contact a{
     font-size: 2rem;
@@ -194,29 +209,7 @@ img {
     fill: #d20f0f;
 }
 
-.social
-{
-    margin-top: 6rem;
-    margin-bottom: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 30rem;
-}
 
-.social ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.social ul li {
-    display: inline;
-    margin: 0 1rem;
-}
-
-.social a {
-    color: #151515;
-    text-transform: uppercase;
-}
 
 .o-lazy {
     background: #f7f5f5;
