@@ -78,6 +78,11 @@
         padding-left: 1rem;
     }
     
+    .future h3
+    {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
     .future h6 {
         font-size: 24px;
         margin-top: 0.5rem;
