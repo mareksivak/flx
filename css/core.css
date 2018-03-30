@@ -130,9 +130,16 @@ img {
     padding-right: 1rem;
     width: 100%;
 }
+.section img {
+    /*box-shadow: rgba(0, 0, 0, 0.34) 0px 4px 58px;*/
+}
+.section img.leader {
+    width: 40px;
+    margin-right: 0.25rem;
+}
 .section h5 {
     font-size: 1.75rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 .section .sub-small {
     margin-top: 0.5rem;

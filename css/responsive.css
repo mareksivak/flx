@@ -29,15 +29,8 @@
         margin-top: 14rem;
         margin-bottom: 14rem;
     }
-    .section .block-desktop {
-        margin-top: 1rem;
-    }
-    .section .block-mobile {
-         margin-top: 1rem;
-    } 
-    .section img.left-img {
-        padding-right: 2rem;
-    }
+ 
+    
     .section h5 {
         font-size: 2.5rem;
     }
@@ -78,23 +71,20 @@
     .section .block-mobile {
          margin-top: 28rem;
     } 
+    .left-img {
+        padding-right: 1rem;
+    }
+    .right-img {
+        padding-left: 1rem;
+    }
     
-    .social
-    {
-        margin-top: 14rem;
-        margin-bottom: 1rem;
+    .future h6 {
+        font-size: 24px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
     }
-    .social .icon svg {
-        width: 2rem!important;
-        height: 2rem!important;
-    }
-    .social .icon svg:hover
-    {
-        opacity: 0.4;
-    }
-    .social .icon svg:focus
-    {
-        opacity: 0.4;
+    .future .tag {
+        font-size: 18px;
     }
 }
 
@@ -102,6 +92,12 @@
 {
     .hero h1 {
         font-size: 6rem;
+    }
+    .left-img {
+        padding-right: 2rem;
+    }
+    .right-img {
+        padding-left: 2rem;
     }
 }
 
